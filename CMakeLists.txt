@@ -8,9 +8,15 @@ project(
   DESCRIPTION "예제 프로젝트"
   LANGUAGES CXX)
 
-
+# 확인할 디렉토리 추가
+add_subdirectory(lib)
 
 add_executable (program main.cpp foo.cpp)
+
+# program 에 shape 를 링크
+target_link_libraries(program shape)
+
+
+#target_include_directories(program PUBLIC ${CMAKE_SOURCE_DIR}/includes)
 #target_compile_options(program PUBLIC -Wall -Werror)
-target_include_directories(program PUBLIC ${CMAKE_SOURCE_DIR}/includes)
 
