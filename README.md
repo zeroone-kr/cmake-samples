@@ -1,5 +1,7 @@
 # cmake_samples
-
+<div>
+<img widht="200" src="https://cgold.readthedocs.io/en/latest/_images/generate-native-files.png">
+</div>
 
 ## 추가 메모
 - FetchContent: C++에서 외부 라이브러리를 불러오거나 설치하는 것이 언어상에서 제공하는 기능이 없어 불편하나 ```FetchContent```를 사용하면 외부 라이브러리르 쉽게 불러와서 설치할 수 있다.
