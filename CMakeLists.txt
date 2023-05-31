@@ -11,7 +11,7 @@ project(
 # 확인할 디렉토리 추가
 add_subdirectory(lib)
 
-add_executable (program main.cpp foo.cpp)
+add_executable (program main.cpp)
 
 # program 에 shape 를 링크
 target_link_libraries(program shape)
