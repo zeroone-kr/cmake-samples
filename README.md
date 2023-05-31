@@ -1,4 +1,5 @@
 # cmake_samples
+개인 학습용
 <div>
 <img widht="200" src="https://cgold.readthedocs.io/en/latest/_images/generate-native-files.png">
 </div>
