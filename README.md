@@ -10,3 +10,8 @@
 ```
 cmake .. -DCMAKE_GENERATOR=Ninja
 ```
+
+## 참고 자료
+- https://youtu.be/eC9-iRN2b04
+- https://cmake.org/cmake/help/latest/index.html
+- https://github.com/kev0960/cmake-for-all
